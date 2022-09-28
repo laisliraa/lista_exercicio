@@ -27,7 +27,7 @@ public class SomaSimples {
 
         // comando de saída com o resultado
 
-        System.out.println("A soma entre os números " +  num1 + " e " +  num2 + " 4é igual a: " + soma);
+        System.out.println("A soma entre os números " +  num1 + " e " +  num2 + " é igual a: " + soma);
 
         input.close();
     }
