@@ -26,8 +26,8 @@ public class ProgramaSoma {
             c = a * b;
             System.out.println("A multiplicação entre os números " + a + " e " + b + " é: " + c);
         }
-        
-        // se os números forem iguais : else System.out.println("Erro: Os nomes são iguais.");
+
+        //se os números forem iguais : else System.out.println("Error: Os nomes são iguais.");
 
         input.close();
     }
