@@ -14,7 +14,7 @@ public class ProgramaMedia {
          float media;
          String nome_aluno;
 
-        //comandos de entrada
+        //comandos de entrada para o usuário 
          System.out.println("Olá, informe seu nome:");
          nome_aluno = input.nextLine();
          System.out.println("Informe sua primeira nota:");
@@ -29,19 +29,14 @@ public class ProgramaMedia {
 
         //if e else 
          if (media >= 10){
-            media = input.nextFloat();
             System.out.println("O(a) aluno(a)" + "tem uma média A. Aprovado(a).");
          } else if (media >= 7 && media < 9){
-            media = input.nextFloat();
             System.out.println("O(a) aluno(a)" + "tem uma média B. Aprovado(a).");
          } else if (media >= 6 && media < 7){
-            media = input.nextFloat();
             System.out.println("O(a) aluno(a)" + "tem uma média C. Aprovado(a).");
          } else if (media >= 4 && media < 6){
-            media = input.nextFloat();
             System.out.println("O(a) aluno(a)" + "tem uma média D. Reprovado(a).");
          } else if (media < 4){
-            media = input.nextFloat();
             System.out.println("O(a) aluno(a)" + "tem uma média E. Reprovado(a).");
          }
 
