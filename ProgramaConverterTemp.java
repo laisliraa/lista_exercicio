@@ -12,7 +12,7 @@ public class ProgramaConverterTemp {
          float tempC;
          int conversão;
          float temp;
-
+         
         //comandos de saída para o usuário inserir informações
          System.out.println("Informe qual a forma de conversão desejada:");
          System.out.println("1 - Celsius para Fahrenheit");
