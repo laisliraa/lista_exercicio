@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//programa capaz de realizar conversão de temperatura entre Celsius, Fahrenheit e Kelvin.
+
 public class ProgramaConverterTemp {
     public static void main(String[] args) {
         
