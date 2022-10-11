@@ -22,7 +22,7 @@ public class ProgramaSoma {
         if (a>b){
             c = a + b;
             System.out.println("A soma entre os números " + a + " e " + b + " é: " + c);
-        }else if (a<b) {
+        } else if (a<b) {
             c = a * b;
             System.out.println("A multiplicação entre os números " + a + " e " + b + " é: " + c);
         }
