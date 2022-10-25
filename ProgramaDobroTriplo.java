@@ -9,6 +9,7 @@ public class ProgramaDobroTriplo {
         //variáveis utilizadas
         int numero;
         int resultado;
+        int tem;
 
         //comandos de entrada para o usuário inserir informações
         System.out.println("Digite um número: ");
